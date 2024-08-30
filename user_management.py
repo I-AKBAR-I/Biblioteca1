@@ -40,6 +40,9 @@ class UserManager:
         if not self.users:
             print("No hay usuarios registrados.")
         else:
-            for user in self.users:
-                print(user)
+            for idx, user in enumerate(self.users, start=1):
+                print(f"\nUsuario {idx}:")
+                for key, value in user.items():
+                    print(f"{key}: {value}")
+                print("-" * 40)
 
