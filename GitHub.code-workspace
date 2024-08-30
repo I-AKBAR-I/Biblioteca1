@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "GitHub",
+			"path": "."
+		},
+		{
+			"name": "PROYECTO",
+			"path": "../PROYECTO"
+		},
+		{
+			"name": "calculator",
+			"path": "../calculator"
+		}
+	],
+	"settings": {}
+}
