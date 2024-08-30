@@ -38,5 +38,8 @@ class CatalogManager:
         if not self.catalog:
             print("No hay artículos en el catálogo.")
         else:
-            for item in self.catalog:
-                print(item)
+            for idx, item in enumerate(self.catalog, start=1):
+                print(f"\nArtículo {idx}:")
+                for key, value in item.items():
+                    print(f"{key}: {value}")
+                print("-" * 40)
