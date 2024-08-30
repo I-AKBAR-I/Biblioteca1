@@ -8,10 +8,7 @@
 			"name": "PROYECTO",
 			"path": "../PROYECTO"
 		},
-		{
-			"name": "calculator",
-			"path": "../calculator"
-		}
+		
 	],
 	"settings": {}
 }
